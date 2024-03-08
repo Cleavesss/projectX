@@ -14,7 +14,7 @@ code {
 
 .header {
   height: 70px;
-  background-color: aqua;
+  background-color: rgba(0, 255, 255, 0.442);
   position: fixed;
   top: 0;
   left: 0;
@@ -23,7 +23,7 @@ code {
 
 .footer{
   height: 50px;
-  background-color: fuchsia;
+  background-color: rgba(255, 0, 255, 0.325);
   position: fixed;
   bottom: 0;
   left: 0;
@@ -31,7 +31,7 @@ code {
 }
 
 .content{
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.353);
   margin-top: 1px;
   position: fixed;
   top: calc(70px);
@@ -56,6 +56,6 @@ code {
 }
 
 .menu{
-  background-color: green;
+  background-color: rgba(0, 128, 0, 0.457);
   
 }
