@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  height: 70px;
+  background-color: aqua;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer{
+  height: 50px;
+  background-color: fuchsia;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.content{
+  background-color: red;
+  margin-top: 1px;
+  position: fixed;
+  top: calc(70px);
+  height: calc(100vh - 100px);
+  width: calc(100% - 320px);
+  overflow: auto;
+}
+
+.childContent{
+  background-color: pink;
+  width: 70%;
+  height: 1000px;
+  margin:  auto;
+}
+
+.main {
+  position: fixed;
+  top: calc(70px);
+  height: calc(100vh - 100px);
+  display: grid;
+  grid-template-columns: 320px auto;
+}
+
+.menu{
+  background-color: green;
+  
+}
