@@ -8,13 +8,13 @@ function App() {
       <Header/>
       <div className='main'>
         <div className='menu'>
-          Тут будет меню
+          Тут будет меню - изменения должны быть тут
         </div>
         <div>
           <div className='content'>
             HelloWorld
             <div className='childContent'>
-              Дочерний элемент
+              Дочерний элемент - и тут
             </div>
           </div>
         </div>
